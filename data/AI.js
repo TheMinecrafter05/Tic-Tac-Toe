@@ -565,6 +565,38 @@ if(button1.innerText == "X" && button5.innerText == "X" && button9.innerText != 
 }
 
 //log buttons
+if(button5.innerText == ""){
+    button5.innerText = "O"
+    console.log("logged button5")
+    turn = "player"
+    document.getElementById("ansage").innerText = "Your turn"
+    return;
+ }
+    
+    if(button3.innerText == ""){
+    button3.innerText = "O"
+    console.log("logged button3")
+    turn = "player"
+    document.getElementById("ansage").innerText = "Your turn"
+    return;
+}
+    
+    if(button7.innerText == ""){
+    button7.innerText = "O"
+    console.log("logged button7")
+    turn = "player"
+    document.getElementById("ansage").innerText = "Your turn"
+    return;
+}
+    
+    if(button9.innerText == ""){
+    button9.innerText = "O"
+    console.log("logged button9")
+    turn = "player"
+    document.getElementById("ansage").innerText = "Your turn"
+    return;
+}
+    
 if(button1.innerText == ""){
     button1.innerText = "O"
     console.log("logged button1")
@@ -581,25 +613,10 @@ if(button2.innerText == ""){
     return;
 }
 
-if(button3.innerText == ""){
-    button3.innerText = "O"
-    console.log("logged button3")
-    turn = "player"
-    document.getElementById("ansage").innerText = "Your turn"
-    return;
-}
 
 if(button4.innerText == ""){
     button4.innerText = "O"
     console.log("logged button4")
-    turn = "player"
-    document.getElementById("ansage").innerText = "Your turn"
-    return;
-}
-
-if(button5.innerText == ""){
-    button5.innerText = "O"
-    console.log("logged button5")
     turn = "player"
     document.getElementById("ansage").innerText = "Your turn"
     return;
@@ -613,14 +630,6 @@ if(button6.innerText == ""){
     return;
 }
 
-if(button7.innerText == ""){
-    button7.innerText = "O"
-    console.log("logged button7")
-    turn = "player"
-    document.getElementById("ansage").innerText = "Your turn"
-    return;
-}
-
 if(button8.innerText == ""){
     button8.innerText = "O"
     console.log("logged button8")
@@ -629,11 +638,5 @@ if(button8.innerText == ""){
     return;
 }
 
-if(button9.innerText == ""){
-    button9.innerText = "O"
-    console.log("logged button9")
-    turn = "player"
-    document.getElementById("ansage").innerText = "Your turn"
-    return;
-}
+
 },1500)
